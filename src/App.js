@@ -1,5 +1,5 @@
 import { createBrowserRouter, RouterProvider } from "react-router-dom";
-import HomePageHeader from "./Pages/Home/HomePageHeader";
+import Home from "./Pages/Home/Home";
 
 
 function App() {
@@ -7,7 +7,7 @@ function App() {
   const router = createBrowserRouter([
     {
       path: "/",
-      element: <HomePageHeader />,
+      element: <Home />,
     },
   ]);
 
