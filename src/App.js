@@ -1,11 +1,21 @@
-import logo from './logo.svg';
-import './App.css';
+import { createBrowserRouter, RouterProvider } from "react-router-dom";
+import HomePageHeader from "./Pages/Home/HomePageHeader";
+
 
 function App() {
+
+  const router = createBrowserRouter([
+    {
+      path: "/",
+      element: <HomePageHeader />,
+    },
+  ]);
+
+
   return (
-    <h1 className=" text-center text-3xl underline">
-      Hello world!
-    </h1>
+    <>
+      <RouterProvider router={router} />
+    </>
   );
 }
 
