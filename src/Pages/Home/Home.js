@@ -1,4 +1,5 @@
 import React from 'react'
+import Footer from '../../shared/Footer'
 import Category from './Category'
 import HomePageHeader from './HomePageHeader'
 
@@ -7,6 +8,7 @@ function Home() {
     <section>
         <HomePageHeader />
         <Category />
+        <Footer />
     </section>
   )
 }

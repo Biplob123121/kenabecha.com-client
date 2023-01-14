@@ -1,5 +1,6 @@
 import React, { useState } from 'react';
 import { ImMenu, ImCross } from 'react-icons/im';
+import Button from './Button';
 
 function Header() {
 
@@ -18,7 +19,8 @@ function Header() {
                     <li className='md:p-2 hover:text-gray-400 font-bold'>Home</li>
                     <li className='md:p-2 hover:text-gray-400 font-bold'>Home</li>
                     <li className='md:p-2 hover:text-gray-400 font-bold'>Home</li>
-                </ul>
+                    <Button />
+                </ul> 
             </nav>
         </header>
     )
